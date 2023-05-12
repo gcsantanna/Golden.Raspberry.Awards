@@ -23,6 +23,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Golden.Raspberry.Awards.Api
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Golden.Raspberry.Awards.Api.Test", "Golden.Raspberry.Awards.Api.Test\Golden.Raspberry.Awards.Api.Test.csproj", "{7811B26A-1CF1-4EAE-B119-6C94A5B18C89}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00 - Resources", "00 - Resources", "{1BB91DAC-B99C-43DB-937E-6B014C77C231}"
+	ProjectSection(SolutionItems) = preProject
+		..\resources\movielist.csv = ..\resources\movielist.csv
+		..\README.md = ..\README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
